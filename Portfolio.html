@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="styles.css">
+        <title>Intro</title>
+    </head>
+    <body>
+        <main>
+            <nav>
+                <div class="logo">MesbaHossein</div>
+                <div class="nav-links">
+                    <a class="nav-item" href="#hero">main</a>
+                    <a class="nav-item" href="#about">About</a>
+                    <a class="nav-item" href="#projects">Projects</a>
+                    <a class="nav-item" href="#contact-us">Leave a message</a>
+                </div>
+            </nav>
+
+            <section id="hero">
+                <h2>Hello i'm Hossein Mesbah</h2>
+            </section>
+            <section id="about">
+                <h3>about</h3>
+                <div id="about-content">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut
+                        laoreet
+                        dolore magna aliquam erat volutpat. Ut wisi enim ad
+                        minim veniam, quis nostrud exerci tation ullamcorper
+                        suscipit lobortis nisl ut aliquip ex ea commodo
+                        consequat. Duis autem vel eum iriure dolor in hendrerit
+                        in
+                        vulputate velit esse molestie consequat, vel illum
+                        dolore eu feugiat nulla facilisis at vero eros et
+                        accumsan et iusto odio dignissim qui blandit praesent
+                        luptatum zzril delenit augue duis dolore te
+                        feugait
+                        nulla facilisi.
+                        <br>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit, sed diam nonummy nibh euismod tincidunt ut
+                        laoreet
+                        dolore magna aliquam erat volutpat. Ut wisi enim ad
+                        minim veniam, quis nostrud exerci tation ullamcorper
+                        suscipit lobortis nisl ut aliquip ex ea commodo
+                        consequat. Duis autem vel eum iriure dolor in hendrerit
+                        in
+                        vulputate velit esse molestie consequat, vel illum
+                        dolore eu feugiat nulla facilisis at vero eros et
+                        accumsan et iusto odio dignissim qui blandit praesent
+                        luptatum zzril delenit augue duis dolore te
+                        feugait
+                        nulla facilisi.</p>
+                    <img alt="place holder" src="https://placehold.co/600x400">
+                </div>
+            </section>
+            <section id="projects">
+                <h2>My Work so far</h2>
+                <section id="grid">
+                    <div class="projects">Ebay</div>
+                    <div class="projects">Youtube</div>
+                    <div class="projects">Amazon</div>
+                    <div class="projects">Wikipedia</div>
+                </section>
+            </section>
+            <section id="contact-us">
+                <h3>Leve a message</h3>
+                <section id="contact-us-content">
+                    <form id="ContactUs">
+                        <div id="form-name">
+                            <label for="name">Enter your name</label>
+                            <br>
+                            <input id="name" type="text" name="name"
+                                placeholder="name" required>
+                        </div>
+                        <div id="form-email">
+                            <label for="email">Enter your email</label>
+                            <br>
+
+                            <input id="email" type="email" name="email"
+                                placeholder="example@example.com" required>
+                        </div>
+                        <div id="form-message">
+                            <label for="message">Your message</label>
+                            <br>
+                            <textarea id="message" name="message"
+                                placeholder="message" required></textarea>
+                        </div>
+
+                        <div id="form-errors"></div>
+                        <button type="submit">Send</button>
+                    </form>
+                </section>
+            </section>
+            <footer>
+                © 2025 Hossein Mesbah
+            </footer>
+        </main>
+        <script src="hero.js"></script>
+        <script src="scrollSpy.js"></script>
+        <script src="contactUs.js"></script>
+    </body>
+</html>
