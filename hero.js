@@ -1,4 +1,3 @@
-let sentMessages = [];
 const hero = document.getElementById('hero');
 const h2 = hero.querySelector('h2');
 

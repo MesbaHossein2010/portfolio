@@ -1,3 +1,4 @@
+let sentMessages = [];
 document.getElementById('ContactUs').addEventListener('submit', function (e) {
     e.preventDefault();
     const form = e.target
